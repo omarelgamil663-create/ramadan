@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>🌙 رسائل رمضان اليومية</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    text-align: center;
+    direction: rtl;
+    padding: 20px;
+}
+h1 {
+    color: #b5651d;
+    margin-bottom: 10px;
+}
+p.description {
+    color: #8c5a2f;
+    font-size: 16px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.day-box {
+    background-color: #fff3e6;
+    border: 2px solid #d9a066;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    padding: 15px;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.day-box:hover {
+    background-color: #ffe0b2;
+}
+.day-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #b5651d;
+}
+.day-message {
+    display: none;
+    font-size: 16px;
+    color: #5a3e2b;
+    margin-top: 5px;
+}
+</style>
+</head>
+<body>
+
+<h1>🌙 رسائل رمضان اليومية 🌙</h1>
+<p class="description">اضغطي على اليوم لمعرفة رسالته ✨</p>
+
+<div class="container">
+  <div class="day-box" onclick="toggleMessage(1)">
+    <div class="day-title">اليوم 1</div>
+    <div class="day-message">اللهم اجعل يومك مليئًا بالخير والبركة 🤍</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(2)">
+    <div class="day-title">اليوم 2</div>
+    <div class="day-message">ابتسم، فابتسامتك صدقة 🌙</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(3)">
+    <div class="day-title">اليوم 3</div>
+    <div class="day-message">اللهم اجعل صيامك مقبولًا وأيامك مباركة ✨</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(4)">
+    <div class="day-title">اليوم 4</div>
+    <div class="day-message">كن لطيفًا مع الجميع اليوم 💛</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(5)">
+    <div class="day-title">اليوم 5</div>
+    <div class="day-message">أجمل الأعمال أن تُدخل السرور على قلب إنسان 🌙</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(6)">
+    <div class="day-title">اليوم 6</div>
+    <div class="day-message">اللهم اجعل كل يوم لك فيه شكر وفرح 🤍</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(7)">
+    <div class="day-title">اليوم 7</div>
+    <div class="day-message">تفائل بالخير تجد الخير ✨</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(8)">
+    <div class="day-title">اليوم 8</div>
+    <div class="day-message">صلاة نافلة اليوم تزيد بركتك 🌙</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(9)">
+    <div class="day-title">اليوم 9</div>
+    <div class="day-message">شارك الابتسامة مع من حولك 💛</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(10)">
+    <div class="day-title">اليوم 10</div>
+    <div class="day-message">اللهم اجعل صيامك خالصًا لوجهك الكريم 🤍</div>
+  </div>
+
+  <div class="day-box" onclick="toggleMessage(11)">
+    <div class="day-title">اليوم 11</div>
+    <div class="day-message">كن سببًا في سعادة شخص اليوم 🌙</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(12)">
+    <div class="day-title">اليوم 12</div>
+    <div class="day-message">اللهم اجعل قلبك مطمئنًا وراحتك دائمة ✨</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(13)">
+    <div class="day-title">اليوم 13</div>
+    <div class="day-message">اليوم فرصة لتكون أفضل نسخة من نفسك 💛</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(14)">
+    <div class="day-title">اليوم 14</div>
+    <div class="day-message">اللهم اجعل كل عمل صالح لك الأجر 🌙</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(15)">
+    <div class="day-title">اليوم 15</div>
+    <div class="day-message">ابتسامتك اليوم صدقة من القلب 🤍</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(16)">
+    <div class="day-title">اليوم 16</div>
+    <div class="day-message">افعل خيرًا ولو بسيطًا اليوم ✨</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(17)">
+    <div class="day-title">اليوم 17</div>
+    <div class="day-message">اللهم اجعل يومك مليئًا بالسكينة 💛</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(18)">
+    <div class="day-title">اليوم 18</div>
+    <div class="day-message">الصيام يزيد قوة الإرادة 🌙</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(19)">
+    <div class="day-title">اليوم 19</div>
+    <div class="day-message">ساعد من حولك اليوم تزرع الخير 🤍</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(20)">
+    <div class="day-title">اليوم 20</div>
+    <div class="day-message">اللهم اجعل قلبك مملوءًا بالسلام والرضا ✨</div>
+  </div>
+
+  <div class="day-box" onclick="toggleMessage(21)">
+    <div class="day-title">اليوم 21</div>
+    <div class="day-message">كن لطيفًا مع نفسك ومع الآخرين 🌙</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(22)">
+    <div class="day-title">اليوم 22</div>
+    <div class="day-message">صلي على النبي ﷺ اليوم 🌙</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(23)">
+    <div class="day-title">اليوم 23</div>
+    <div class="day-message">اللهم اجعل قلبك مليء بالشكر والامتنان 💛</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(24)">
+    <div class="day-title">اليوم 24</div>
+    <div class="day-message">شارك الحب والفرح من حولك اليوم 🤍</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(25)">
+    <div class="day-title">اليوم 25</div>
+    <div class="day-message">ابتسامة اليوم تضيء قلبك 💛</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(26)">
+    <div class="day-title">اليوم 26</div>
+    <div class="day-message">اللهم اجعل كل يوم فرصة جديدة للخير 🌙</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(27)">
+    <div class="day-title">اليوم 27</div>
+    <div class="day-message">كن سببًا في سعادة الآخرين اليوم 🤍</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(28)">
+    <div class="day-title">اليوم 28</div>
+    <div class="day-message">اللهم اجعل هذا اليوم مباركًا لك ولمن حولك ✨</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(29)">
+    <div class="day-title">اليوم 29</div>
+    <div class="day-message">ابتسم وقل الحمد لله 🌙</div>
+  </div>
+  <div class="day-box" onclick="toggleMessage(30)">
+    <div class="day-title">اليوم 30</div>
+    <div class="day-message">اللهم اجعل نهاية رمضان بداية للخير الدائم 💛</div>
+  </div>
+</div>
+
+<script>
+function toggleMessage(day) {
+  const messages = document.querySelectorAll('.day-message');
+  messages.forEach(msg => msg.style.display = 'none');
+  document.querySelectorAll('.day-box')[day-1].querySelector('.day-message').style.display = 'block';
+}
+</script>
+
+</body>
+</html>
